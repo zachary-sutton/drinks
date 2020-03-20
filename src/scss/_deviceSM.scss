@@ -1,0 +1,39 @@
+@media (max-width: 577px) {
+/* SPLASH */
+#splash{
+    .splash-container{
+        h3{
+            font-size: 1.75rem;
+        }
+    }
+}
+/* HEADER */
+#header{
+    button{
+        margin: 0;
+    }
+}
+ /* MAIN EVENTS */
+ #main-event{
+    .main-panel{
+        h1{
+            font-size: 2rem!important;
+        }
+        .time-h3{
+            font-size: 1rem;
+        }
+        .guests-p{
+            margin: 0;
+        }
+        .guest-imgs{
+            height: 4rem;
+        }
+    }
+    .media-img{
+        display: none;
+    }
+}
+}
+
+
+

@@ -1,0 +1,15 @@
+@import "config";
+@import "splash";
+@import "header";
+@import "mainEvent";
+@import "events";
+
+body, html{
+    background-color: $col2;
+    overflow-x: hidden;
+}
+
+@import "deviceSM";
+@import "deviceMD";
+@import "deviceLG";
+@import "deviceXL";

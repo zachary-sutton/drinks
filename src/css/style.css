@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto+Condensed&display=swap");
+.border {
+  border: 5px solid red;
+}
+
+#splash {
+  background-color: #dbb561;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+#splash .splash-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+#splash .splash-container .logo {
+  width: 25rem;
+  height: auto;
+}
+#splash .splash-container h1 {
+  font-family: "Lobster", cursive;
+  font-size: 10rem;
+}
+#splash .splash-container h3 {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: #4c3800;
+}
+#splash .splash-container button {
+  border-radius: 90px;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  margin-top: 1rem;
+  transition: padding 1s ease-in-out, transform 1s ease-in-out;
+}
+#splash .splash-container button:hover {
+  padding: 1.5rem;
+  transform: rotateZ(360deg);
+}
+#splash .splash-container .arrow {
+  height: 1rem;
+  width: auto;
+  transform: rotateZ(-180deg);
+}
+#splash img {
+  width: 6rem;
+}
+
+#header {
+  background-color: #dbb561;
+  font-family: "Roboto Condensed", sans-serif;
+}
+#header button {
+  margin: 0 1rem;
+  border-radius: 25px;
+  border: 2px solid #4c3800;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+#header button:hover {
+  background-color: #bb6b62;
+  border: 2px solid #bb6b62;
+  color: white;
+}
+#header img {
+  width: 8rem;
+  height: auto;
+}
+#header hr {
+  padding: 0;
+  margin: 0;
+}
+
+#main-event {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  z-index: 100;
+  background-color: #dbb561;
+  border-bottom: 5px solid #4c3800;
+  padding-bottom: 2rem;
+  color: white;
+  background-color: #e5cb90;
+}
+#main-event .hr-4 {
+  border-top: 4px solid white;
+}
+#main-event button {
+  margin: 0 1rem;
+  border-radius: 25px;
+  border: 2px solid #4c3800;
+  margin-bottom: 1rem;
+  transition: all 0.5s ease-in-out;
+  font-family: "Roboto Condensed", sans-serif;
+}
+#main-event button:hover {
+  background-color: #bb6b62;
+  border: 2px solid #bb6b62;
+  color: white;
+}
+#main-event img {
+  height: 8rem;
+  border-radius: 90px;
+  border: 4px solid white;
+}
+#main-event .main-panel {
+  background-color: #bb6b62;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 4px solid white;
+  border-radius: 25px;
+}
+#main-event .main-panel h1 {
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+}
+#main-event .media {
+  border-radius: 25px;
+  border: 4px solid white;
+  margin-top: 1rem;
+  margin-right: 1px;
+  background-color: #c7867e;
+}
+
+#events {
+  background-color: #dbb561;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+}
+#events .event-tile {
+  border: 1px solid #4c3800;
+  background-color: #e5cb90;
+  padding: 1rem 0rem;
+  transition: all 0.5s ease-in-out;
+}
+#events .event-tile:hover {
+  background-color: #bb6b62;
+  color: white;
+  cursor: pointer;
+}
+#events .event-tile h2 {
+  font-family: "Lobster", cursive;
+}
+#events .event-tile .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  display: none;
+}
+
+body, html {
+  background-color: #dbb561;
+  overflow-x: hidden;
+}
+
+@media (max-width: 577px) {
+  /* SPLASH */
+  #splash .splash-container h3 {
+    font-size: 1.75rem;
+  }
+
+  /* HEADER */
+  #header button {
+    margin: 0;
+  }
+
+  /* MAIN EVENTS */
+  #main-event .main-panel h1 {
+    font-size: 2rem !important;
+  }
+  #main-event .main-panel .time-h3 {
+    font-size: 1rem;
+  }
+  #main-event .main-panel .guests-p {
+    margin: 0;
+  }
+  #main-event .main-panel .guest-imgs {
+    height: 4rem;
+  }
+  #main-event .media-img {
+    display: none;
+  }
+}
+@media (max-width: 1201px) {
+  /* MainEvent */
+  #main-event .main-panel h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
