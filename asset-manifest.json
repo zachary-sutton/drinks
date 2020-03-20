@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/drinks/static/css/main.909b5ce2.chunk.css",
+    "main.js": "/drinks/static/js/main.02856add.chunk.js",
+    "main.js.map": "/drinks/static/js/main.02856add.chunk.js.map",
+    "runtime-main.js": "/drinks/static/js/runtime-main.43350c8e.js",
+    "runtime-main.js.map": "/drinks/static/js/runtime-main.43350c8e.js.map",
+    "static/css/2.de424728.chunk.css": "/drinks/static/css/2.de424728.chunk.css",
+    "static/js/2.9784743e.chunk.js": "/drinks/static/js/2.9784743e.chunk.js",
+    "static/js/2.9784743e.chunk.js.map": "/drinks/static/js/2.9784743e.chunk.js.map",
+    "index.html": "/drinks/index.html",
+    "precache-manifest.dc1c1e1f4342f17b2588b65ddd983265.js": "/drinks/precache-manifest.dc1c1e1f4342f17b2588b65ddd983265.js",
+    "service-worker.js": "/drinks/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/drinks/static/css/2.de424728.chunk.css.map",
+    "static/css/main.909b5ce2.chunk.css.map": "/drinks/static/css/main.909b5ce2.chunk.css.map",
+    "static/js/2.9784743e.chunk.js.LICENSE.txt": "/drinks/static/js/2.9784743e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43350c8e.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.9784743e.chunk.js",
+    "static/css/main.909b5ce2.chunk.css",
+    "static/js/main.02856add.chunk.js"
+  ]
+}
